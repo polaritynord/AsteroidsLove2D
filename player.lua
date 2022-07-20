@@ -10,7 +10,7 @@ local player = {
     velocity = 0;
     shootTimer = 0;
     bullets = {};
-    health = 1;
+    health = 3;
     damageTimer = 0;
     score = 0;
     damageSound = love.audio.newSource("damage.wav", "static");
@@ -25,7 +25,7 @@ function player.setup()
     player.velocity = 0;
     player.shootTimer = 0;
     player.bullets = {};
-    player.health = 1;
+    player.health = 3;
     player.damageTimer = 0;
     player.score = 0;
 end
